@@ -1,0 +1,23 @@
+.posts_search_text{
+  margin: 50px 10px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.All_posts_card{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 40px 10px !important;
+}
+.posts_card_flex{
+  background-color: wheat;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.posts_card_flex .posts_text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

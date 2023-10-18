@@ -1,0 +1,90 @@
+#header{
+  background-color: rgba(35, 37, 54, 1);
+  padding: 20px 8px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.Header_flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Header_flex .Logo .finsweet{
+  color: white;
+  text-decoration: none;
+}
+.Header_flex .Right_Link{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.Header_flex .Right_Link .lnk{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.778);
+  font-size: 15px;
+}
+.Header_flex .Right_Link .login{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 7px 20px;
+  font-size: 14px;
+}
+
+.toggle{
+  display: none;
+}
+.mini_sidebar{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  top: 69px;
+  right: -100px;
+  background-color: rgba(35, 37, 54, 1);
+  height: 100vh;
+  padding: 50px 20px;
+  width: 0%;
+  text-align: center;
+  transition: .5s ease;
+  z-index: 9999;
+}
+
+.mini_sidebar .lnk{
+  color: white;
+  text-decoration: none;
+}
+.mini_sidebar .login{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 7px 20px;
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .Header_flex .Right_Link{
+    display: none;
+  }  
+  .toggle{
+    display: block;
+  }
+  .mini_sidebar.active{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    top: 77px;
+    right: 0;
+    background-color: rgba(35, 37, 54, 1);
+    height: 45vh;
+    padding: 50px 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 9999;
+  }
+}

@@ -1,0 +1,33 @@
+.all_mypost{
+  padding: 10px 10px;
+}
+.head_text_mypost{
+  padding-top: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+.all_mypost input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+
+.all_mypost .card_all_mypost{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 70px;
+}
+.all_mypost .card_mypost{
+  display: flex;
+  height: 300px;
+  background-color: wheat;
+}
+.all_mypost .card_all_mypost .card_mypost .text_mypost{
+  padding: 30px;
+}
+.card_mypost img{
+  width: 300px;
+}

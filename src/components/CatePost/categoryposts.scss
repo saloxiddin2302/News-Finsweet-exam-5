@@ -1,0 +1,126 @@
+.categorypost { 
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-column-gap: 30px;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.main{
+
+  .head{
+    h2{
+      color: var(--black, #232536);
+text-align: center;
+
+/* Display */
+font-family: Sen;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 114.286% */
+letter-spacing: -2px;
+    }
+    background: var(--lavender, #F4F0F8);
+    padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3{
+    color: var(--black, #232536);
+text-align: center;
+
+/* Cap 03 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: 3px;
+text-transform: uppercase;
+  }
+  p{
+    padding-top: 20px;
+    color: var(--medium-grey, #6D6E76);
+text-align: center;
+
+/* Body 1 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+  }
+  }
+}
+.categorypost img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.categorypost h2 {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.categorypost h3{
+  color: var(--purple, #592EA9);
+/* Cap 1 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 125% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.categorypost p {
+  color: var(--medium-grey, #6D6E76);
+
+/* Body 1 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+   display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.categorypostsinput{
+  margin-top: 50px;
+}
+
+@media (max-width: 750px) {
+  .categorypost { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 30px;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+}

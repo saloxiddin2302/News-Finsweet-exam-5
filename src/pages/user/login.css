@@ -1,0 +1,31 @@
+.all_login{
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+.login_text_center{
+  text-align: center;
+}
+.Login_inputvs_flex{
+  display: flex;
+  align-items: center;
+  margin-top: 50px !important;
+}
+.Login_inputvs_flex .flex_inpvs{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+.Login_inputvs_flex .flex_inpvs input{
+  padding: 10px 5px;
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.353);
+}
+.Login_inputvs_flex .flex_inpvs .send{
+  padding: 10px 5px;
+  background-color: rgba(255, 208, 80, 1);
+  border: none;
+}

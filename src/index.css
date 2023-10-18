@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.ant-layout-sider {
+  height: 100vh;
+}
+
+.ant-layout-content {
+  margin: 0 !important;
+  height: calc(100vh - 64px);
+  overflow: scroll;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.category-image .ant-upload-select {
+  width: 100% !important;
+}

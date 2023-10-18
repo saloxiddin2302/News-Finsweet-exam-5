@@ -1,0 +1,54 @@
+.card{
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 0px 8px -1px rgba(34, 60, 80, 0.188);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 5px;
+  border:  1px solid rgba(109, 110, 118, 0.234);
+  transition: .5s;
+}
+.hover:hover{
+  background-color: rgba(255, 208, 80, 1);
+  color: white;
+}
+.pad{
+  padding: 20px !important;
+}
+.card img{
+  width: 100%;
+}
+.aas{
+  height: 250px;
+}
+.popular_text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+
+.card .user_info_postcard{
+  display: flex;
+  gap: 7px;
+  font-size: 13.2px;
+}
+.card .user_info_postcard a{
+  text-decoration: none;
+}
+.line_clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+}
+.line_clamp2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+}
