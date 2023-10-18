@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { request } from "../../server/request";
 import { Form, Input, Modal, Select } from 'antd';
-// import img from '../../assets/right.png'
+import img from '../../assets/right.png'
 import './mypost.css'
 import { IMG_URL } from "../../const";
 import { useForm } from "react-hook-form";
@@ -102,16 +102,12 @@ const MyPostsP = () => {
                 onChange={handleChange}
                 options={[
                   {
-                    value: 'jack',
-                    label: 'Jack',
+                    value: 'abdulaziz',
+                    label: 'abdulaziz',
                   },
                   {
-                    value: 'lucy',
-                    label: 'Lucy',
-                  },
-                  {
-                    value: 'Yiminghe',
-                    label: 'yiminghe',
+                    value: 'n15_student',
+                    label: 'n15_student',
                   },
               ]}
             />
