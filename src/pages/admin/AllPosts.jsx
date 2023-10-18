@@ -120,6 +120,7 @@ const AllPosts = () => {
     }
   }
 
+  
   return (
     <div>
       {loading ? (

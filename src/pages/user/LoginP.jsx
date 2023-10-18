@@ -6,7 +6,6 @@ import { setAuthCookies } from "../../utils/setAuthCookies";
 import './login.css'
 
 const LoginP = () => {
-  // const navigate = useNavigate();
   const { setIsAuthenticated, setRole, setToken } = useContext(AuthContext);
   const [user, setUser] = useState({ username: "", password: "" });
   const [loading, setLoading] = useState(false);
